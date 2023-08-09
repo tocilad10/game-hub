@@ -12,7 +12,7 @@ const NavBar = ({ onSearch }: Props) => {
     <HStack padding="10px">
       <Image
         src={logo}
-        boxSize="60px"
+        boxSize="40px"
         className="logo"
         borderRadius="5px"
       ></Image>
