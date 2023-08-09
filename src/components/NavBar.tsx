@@ -11,8 +11,10 @@ const NavBar = ({ onSearch }: Props) => {
   return (
     <HStack padding="10px">
       <Image
+        cursor="pointer"
+        onClick={() => window.location.reload()}
         src={logo}
-        boxSize="40px"
+        boxSize="60px"
         className="logo"
         borderRadius="5px"
       ></Image>
